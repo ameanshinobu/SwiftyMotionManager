@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name              = 'SwiftyMotionManager'
-  s.version           = '1.0.0'
+  s.version           = '1.0'
   s.summary           = 'SwiftyMotionManager is an alternative libfor CMMotionManager'
   s.homepage          = 'https://github.com/JeffGuKang/SwiftyMotionManager'
   s.license           = { :type => 'MIT', :file => 'LICENSE' }
