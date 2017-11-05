@@ -1,6 +1,6 @@
 # SwiftyMotionManager
 
-**SwiftySenserControl** is an alternative for [CMMotionManager](https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMMotionManager_Class/).
+**SwiftyMotionManager** is an alternative for [CMMotionManager](https://developer.apple.com/library/ios/documentation/CoreMotion/Reference/CMMotionManager_Class/).
 
 1. [Why SwiftyMotionManager?](#why-SwiftyMotionManager)
 1. [What kind of data can SwiftyMotionManager read?](#what-kind-of-data-can-SwiftyMotionManager-read)
