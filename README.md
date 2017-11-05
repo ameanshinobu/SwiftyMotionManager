@@ -35,6 +35,24 @@ plan
 
 ## Integration
 
+#### CocoaPods (iOS 8+, OS X 10.9+)
+
+You can use CocoaPods to install SwiftyMotionManager adding it to your Podfile:
+
+```swift
+platform :ios, '8.0'
+use_frameworks!
+
+target 'MyApp' do
+	pod 'SwiftyMotionManager'
+end
+```
+
+#### Cocoapod
+```
+pod install SwiftyMotionManager
+```
+
 #### Manually (iOS 8+, OS X 10.9+)
 1. for Projects, just drag and drop SwiftyMotionManager.swift to your project tree.
 2. for Workspaces, include the entire SwiftyMotionManager project.
