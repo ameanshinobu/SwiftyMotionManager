@@ -48,11 +48,6 @@ target 'MyApp' do
 end
 ```
 
-#### Cocoapod
-```
-pod install SwiftyMotionManager
-```
-
 #### Manually (iOS 8+, OS X 10.9+)
 1. for Projects, just drag and drop SwiftyMotionManager.swift to your project tree.
 2. for Workspaces, include the entire SwiftyMotionManager project.
