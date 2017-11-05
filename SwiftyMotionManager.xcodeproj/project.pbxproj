@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CC6643561D78552F00212EBA /* SwiftyMotionManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyMotionManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC6643601D78552F00212EBA /* SwiftyMotionManager.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyMotionManager.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8B83A31FAEFE7200C9F584 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		CC99786B1D86929300A27297 /* SwiftyMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwiftyMotionManager.h; path = SwiftyMotionManager/SwiftyMotionManager.h; sourceTree = SOURCE_ROOT; };
 		CC99786C1D86929300A27297 /* SwiftyMotionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyMotionManager.swift; path = SwiftyMotionManager/SwiftyMotionManager.swift; sourceTree = SOURCE_ROOT; };
 		CC99786D1D86929300A27297 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SwiftyMotionManager/Info.plist; sourceTree = SOURCE_ROOT; };
@@ -58,6 +59,7 @@
 				CC6643581D78552F00212EBA /* SwiftyMotionManager */,
 				CC6643641D78552F00212EBA /* SwiftyMotionManagerTests */,
 				CC6643571D78552F00212EBA /* Products */,
+				CC8B83A21FAEFE7100C9F584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +91,14 @@
 			);
 			name = SwiftyMotionManagerTests;
 			path = SwiftySensorControlTests;
+			sourceTree = "<group>";
+		};
+		CC8B83A21FAEFE7100C9F584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC8B83A31FAEFE7200C9F584 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
